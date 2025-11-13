@@ -1,0 +1,44 @@
+{
+  "name": "logseq-pam",
+  "version": "0.0.0",
+  "description": "Plugin to enhance PDF annotating",
+  "source": "src/index.html",
+  "main": "dist/index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "copy-vendor": "cpy \"src/vendor/*.min.mjs\" dist/vendor/",
+    "build": "parcel build src/index.html --no-source-maps --dist-dir dist --public-url ./ && npm run copy-vendor",
+    "dev": "parcel build src/index.html --dist-dir dist --public-url ./ && npm run copy-vendor",
+    "watch": "parcel watch src/index.html"
+  },
+  "keywords": [
+    "logseq",
+    "PDF",
+    "Annotation"
+  ],
+  "author": "A.O. Shadrack",
+  "license": "MIT",
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "cpy-cli": "^6.0.0",
+    "parcel": "^2.16.0"
+  },
+  "logseq": {
+    "id": "logseq-pam",
+    "title": "PDF Annotation Manipulator",
+    "description": "A plugin to enhance PDF annotating.",
+    "icon": "./icon.svg",
+    "author": "A.O. Shadrack",
+    "repo": ""
+  },
+  "dependencies": {
+    "@logseq/libs": "^0.0.17",
+    "chroma-js": "^3.1.2",
+    "edn-data": "^1.1.2",
+    "mupdf": "^1.26.4",
+    "pdfjs-dist": "^5.4.296"
+  }
+}
