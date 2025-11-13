@@ -47,7 +47,7 @@ Three commands are available (demo below)
   - _When you open your pdf in the logseq mobile app your highlights will be available if you have embedded them_
 
 
-![alt text](ezgif-47b11a9c3c28008e.gif)
+![alt text](tutorial.gif)
 
 ### Configurations
  ![alt text](image.png)
@@ -104,6 +104,8 @@ Three commands are available (demo below)
 
 ## Additonal Information
 
-- [^spec]: See the [Adobe PDF 32000-1 specification, Section 12.5 (Annotations)](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf)
-- [^1]: See [pdfjs](https://mozilla.github.io/pdf.js)
-- [^2]: See [mupdf](https://mupdf.com/mupdf-js)
+[^spec]: See the [Adobe PDF 32000-1 specification, Section 12.5 (Annotations)](https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf)
+
+[^1]: See [pdfjs](https://mozilla.github.io/pdf.js)
+
+[^2]: See [mupdf](https://mupdf.com/mupdf-js)
